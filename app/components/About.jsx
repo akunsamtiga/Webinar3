@@ -35,7 +35,7 @@ const About = () => {
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="py-12 px-4 md:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Column - Image */}
@@ -50,12 +50,12 @@ const About = () => {
               <img 
                 src="images/webinar4.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
                 alt="Webinar Session" 
-                className="w-full h-full object-cover"
+                className="w-full h-64 md:h-86 lg:h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-xl shadow-xl w-3/4">
-              <h3 className="font-bold text-xl mb-2">100% Praktikal</h3>
-              <p className="text-blue-100">Studi kasus nyata dari pengalaman profesional</p>
+            <div className="absolute -bottom-6 -right-2 md:-right-6 bg-blue-600 text-white p-4 md:p-6 rounded-xl shadow-xl w-3/4">
+              <h3 className="font-bold text-base md:text-xl mb-2">100% Praktikal</h3>
+              <p className="text-blue-100 text-sm md:text-base">Studi kasus nyata dari pengalaman profesional</p>
             </div>
           </motion.div>
 
@@ -123,7 +123,7 @@ const About = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="mt-24 bg-gray-50 rounded-2xl p-8 sm:p-10 shadow-inner"
+          className="mt-12 md:mt-20 bg-gray-50 rounded-2xl p-8 sm:p-10 shadow-inner"
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 divide-y md:divide-y-0 md:divide-x divide-gray-200">
             <div className="text-center md:text-left">

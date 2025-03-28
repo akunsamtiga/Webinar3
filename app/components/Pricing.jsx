@@ -9,14 +9,14 @@ const Pricing = () => {
       id: 1,
       name: "Starter",
       price: "299",
-      currency: "Rp",
-      duration: "per participant",
+      currency: "USD",
+      duration: "per peserta",
       features: [
-        "Full webinar access",
-        "Presentation slides",
-        "Digital certificate",
-        "30-day recording access",
-        "Basic worksheets"
+        "Akses penuh webinar",
+        "Slide presentasi",
+        "Sertifikat digital",
+        "Akses rekaman 30 hari",
+        "Lembar kerja dasar"
       ],
       popular: false,
       highlight: false,
@@ -31,15 +31,15 @@ const Pricing = () => {
       id: 2,
       name: "Professional",
       price: "499",
-      currency: "Rp",
-      duration: "per participant",
+      currency: "USD",
+      duration: "per peserta",
       features: [
-        "All Starter features",
-        "1-year recording access",
-        "Premium templates",
-        "Exclusive community",
-        "2 Q&A sessions",
-        "Bonus case studies"
+        "Semua fitur Starter",
+        "Akses rekaman 1 tahun",
+        "Template premium",
+        "Komunitas eksklusif",
+        "2 sesi Tanya Jawab",
+        "Studi kasus bonus"
       ],
       popular: true,
       highlight: true,
@@ -54,15 +54,15 @@ const Pricing = () => {
       id: 3,
       name: "Enterprise",
       price: "2,499",
-      currency: "Rp",
-      duration: "team (max 5)",
+      currency: "USD",
+      duration: "tim (maks 5)",
       features: [
-        "All Professional features",
-        "Up to 5 participants",
-        "Private consultation",
-        "Company certificate",
-        "Custom needs analysis",
-        "Priority support"
+        "Semua fitur Professional",
+        "Hingga 5 peserta",
+        "Konsultasi privat",
+        "Sertifikat perusahaan",
+        "Analisis kebutuhan khusus",
+        "Dukungan prioritas"
       ],
       popular: false,
       highlight: false,
@@ -77,8 +77,8 @@ const Pricing = () => {
 
   const features = [
     {
-      title: "100% Satisfaction Guarantee",
-      description: "Full refund if you're not satisfied",
+      title: "Garansi Kepuasan 100%",
+      description: "Pengembalian dana penuh jika tidak puas",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -86,8 +86,8 @@ const Pricing = () => {
       )
     },
     {
-      title: "Secure Payment",
-      description: "Multiple payment methods available",
+      title: "Pembayaran Aman",
+      description: "Berbagai metode pembayaran tersedia",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
@@ -95,8 +95,8 @@ const Pricing = () => {
       )
     },
     {
-      title: "Flexible Access",
-      description: "Available on all devices",
+      title: "Akses Fleksibel",
+      description: "Tersedia di semua perangkat",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -104,8 +104,8 @@ const Pricing = () => {
       )
     },
     {
-      title: "Official Invoice",
-      description: "For corporate reimbursement",
+      title: "Faktur Resmi",
+      description: "Untuk penggantian biaya perusahaan",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2z" />
@@ -115,7 +115,7 @@ const Pricing = () => {
   ];
 
   return (
-    <section className="relative py-28 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
+    <section className="relative py-12 px-4 md:px-6 lg:px-8 bg-white overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/4 w-full max-w-2xl h-64 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full opacity-20 blur-3xl"></div>
       
@@ -129,13 +129,13 @@ const Pricing = () => {
           className="text-center mb-20"
         >
           <span className="inline-block px-4 py-1.5 text-xs font-semibold tracking-wider text-blue-600 bg-blue-100 rounded-full uppercase mb-6">
-            Flexible Pricing
+            Harga Fleksibel
           </span>
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-            Choose Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Learning Plan</span>
+            Pilih <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Paket Belajar</span> Anda
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Invest in knowledge that grows with your career. All plans include our satisfaction guarantee.
+            Investasi dalam pengetahuan yang berkembang bersama karier Anda. Semua paket termasuk garansi kepuasan kami.
           </p>
         </motion.div>
 
@@ -156,7 +156,7 @@ const Pricing = () => {
             >
               {plan.popular && (
                 <div className="absolute top-0 right-0 bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-xs font-bold px-4 py-2 rounded-bl-xl rounded-tr-xl">
-                  MOST POPULAR
+                  PALING POPULER
                 </div>
               )}
               
@@ -166,7 +166,7 @@ const Pricing = () => {
                     {plan.name}
                   </h3>
                   <div className="flex items-end">
-                    <span className="text-5xl font-bold text-gray-900">{plan.currency}{plan.price}</span>
+                    <span className="text-3xl md:text-4xl font-bold text-gray-900">{plan.currency} {plan.price}</span>
                     <span className="text-lg text-gray-500 ml-2">/ {plan.duration}</span>
                   </div>
                 </div>
@@ -185,9 +185,9 @@ const Pricing = () => {
                 <Button
                   variant={plan.highlight ? "primary" : "outline"}
                   size="lg"
-                  className={`w-full ${plan.highlight ? plan.colorScheme.button : 'border-2 hover:bg-gray-50'}`}
+                  className={`w-full h-10 lg:h-12 ${plan.highlight ? plan.colorScheme.button : 'border-2 hover:bg-gray-50'}`}
                 >
-                  Get {plan.name} Plan
+                  Dapatkan Paket {plan.name}
                 </Button>
               </div>
             </motion.div>
@@ -206,9 +206,9 @@ const Pricing = () => {
             <div className="bg-black rounded-xl p-10">
               <div className="flex flex-col lg:flex-row items-center justify-between">
                 <div className="mb-8 lg:mb-0 lg:mr-8">
-                  <h3 className="text-2xl font-bold text-gray-100 mb-3">Need a custom solution for your team?</h3>
+                  <h3 className="text-2xl font-bold text-gray-100 mb-3">Butuh solusi khusus untuk tim Anda?</h3>
                   <p className="text-gray-200 max-w-2xl">
-                    We offer tailored corporate packages with volume discounts, dedicated support, and customized content to meet your organization's specific learning objectives.
+                    Kami menawarkan paket korporat khusus dengan diskon volume, dukungan khusus, dan konten yang disesuaikan untuk memenuhi tujuan pembelajaran organisasi Anda.
                   </p>
                 </div>
                 <Button 
@@ -216,7 +216,7 @@ const Pricing = () => {
                   size="xl"
                   className="whitespace-nowrap px-10 py-4 font-bold shadow-lg hover:shadow-xl transition-all bg-gradient-to-l from-gray-500 to-gray-800"
                 >
-                  Request Enterprise Quote
+                  Minta Penawaran Enterprise
                 </Button>
               </div>
             </div>
@@ -230,7 +230,7 @@ const Pricing = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-2xl font-bold text-center text-gray-900 mb-12">What's Included in All Plans</h3>
+          <h3 className="text-2xl font-bold text-center text-gray-900 mb-12">Apa yang Termasuk dalam Semua Paket</h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {features.map((feature, index) => (
