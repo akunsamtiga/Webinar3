@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'Webinar | Transformasi Digital untuk Bisnis',
-  description: 'Pelajari strategi terbaru implementasi AI dalam bisnis dari para ahli industri',
+  title: 'NextTalks',
+  description: 'Temukan ide-ide besar dan pembicara inspiratif dalam satu platform webinar profesional.',
 };
 
 export default function RootLayout({ children }) {
